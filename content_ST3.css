@@ -1,0 +1,63 @@
+body {
+    background-color: springgreen;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+}
+
+p {
+    text-align: center;
+    font-size: 30px; 
+}
+
+#Malaria, #Ebola{
+    background-color: green;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+#Malaria h1, #Covid h1 {
+    color: brown;
+} 
+
+
+img {
+    float: left;
+    padding: 20px;
+    padding-top: 0px;
+    height: 700px;
+    width: 700px;
+    
+}
+
+ul {
+    margin-top: 0; 
+    padding-left: 10px; 
+    list-style-type: none; 
+}
+
+li {
+    margin-bottom: 10px; 
+    font-size: 40px; 
+}
+
+#btn {
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    background-color: blue; 
+    color: white; 
+    cursor: pointer; 
+    padding: 20px; 
+    border-radius: 15px; 
+    font-size: 20px; 
+  }
+  
+  #btn:hover {
+    background-color: skyblue; 
+  }
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>User Profile</title>
+<link rel="stylesheet" href="profile.css">
+</head>
+<body>
+<h1>User Profile</h1>
+  <div id="container">
+    <div id="firstPrompt">
+      <h1> Step 1: Personal Details</h1>
+      <div id="question">Please enter your first name:</div>
+      <input type="text" id="userInput">
+      <button id="promptButton">Submit</button>     
+      <button id="backButton" style="display: none;">Back</button>
+      <button id="skipButton">Skip</button>
+    </div>
+    <progress id="progressBar" max="100" value="0"></progress>
+    <span id="progressValue">0%</span>
+    
+    <div id="profile"></div>
+    
+
+    <div id="secondPrompt" style="display: none;">
+      <h1> Step 2: Details 2</h1>
+      <div id="question2">Please enter your gender:</div>
+      <input type="text" id="userInput2">
+      
+      <button id="promptButton2">Submit</button>
+      <button id="backButton2" style="display: none;">Back</button>
+      <button id="skipButton2">Skip</button>
+ 
+    </div>
+    <progress id="progressBar2" max="100" value="0"></progress>
+    <span id="progressValue2">0%</span>
+    <div id="profile2"></div>
+
+    <div id="thirdPrompt" style="display: none;">
+      <h1> Step 3: Site Interests</h1>
+      <div id="question3">Please enter your way of finding this site:</div>
+      <input type="text" id="userInput3">
+      
+      <button id="promptButton3">Submit</button>
+      <button id="backButton3" style="display: none;">Back</button>
+      <button id="skipButton3">Skip</button>
+ 
+    </div>
+    <progress id="progressBar3" max="100" value="0"></progress>
+    <span id="progressValue3">0%</span>
+    <div id="profile3"></div>
+    <h1>Overall Profile Progress</h1>
+    <progress id="overallProgressBar" max="100" value="0"></progress>
+    <span id="overallProgressValue">0%</span>
+  </div>
+
+
+<button id="restart">Restart</button>
+<script src="profile.js"></script>
+</body>
+</html>
