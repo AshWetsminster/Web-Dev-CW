@@ -1,0 +1,29 @@
+Body {
+    background-color: springgreen;
+
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+ul, p {
+    text-align: center;
+    font-size: 25px;
+    list-style-type: none;
+
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+a{
+    display: block;
+    text-align: center;
+    font-size: 25px;
+}
